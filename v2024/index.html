@@ -1,40 +1,93 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<html lang="ru">
 
-		<title>reveal.js</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <title>Программист</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Программист</h1>
+                <br>
+                Юрий Алексеевич Сыровецкий
+            </section>
+
+            <section>
+                <h2>Писал</h2>
+                <p>
+                    Assembler,
+                    Basic,
+                    C, C#, C++,
+                    DOS/Windows batch,
+                    Java, JavaScript,
+                    Haskell,
+                    Pascal, Perl, PHP, Python, PureScript,
+                    Racket (Scheme), Rust,
+                    Scala, Scratch, Smalltalk,
+                    TypeScript,
+                    Unix shell,
+                </p>
+                <p>
+                    CMake, CSS,
+                    Graphviz,
+                    HTML,
+                    JSON,
+                    Make,
+                    SQL,
+                    TeX,
+                    YAML,
+                    XML...
+                </p>
+                <h2>Работал</h2>
+                <p>Касперский, Яндекс...</p>
+            </section>
+
+            <section><img src="programmer_day.jpeg"></section>
+
+            <section>
+                <h2>Программирование — это</h2>
+                <ul>
+                    <li>ремесло</li>
+                    <li>наука</li>
+                    <li>искусство</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Программирование — это наука о вычислениях</h2>
+                <p>Математика/информатика.</p>
+                <p>Программа — это формула.</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+            slideNumber: true,
+        });
+    </script>
+</body>
+
 </html>
