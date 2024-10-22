@@ -1,31 +1,14 @@
-Что такое программирование?
-***************************
+Чем занимаются программисты?
+****************************
 
 .. |contacts| raw:: html
 
-    <p>
-        <br/>
+    <p align="center">
+        Юрий Алексеевич<br>
+        Сыровецкий
     </p>
-    <table width="100%">
-        </tr>
-            <td align="center">
-                Юрий Сыровецкий
-            </td>
-            <td align="center">
-                Пётр Гриневич
-            </td>
-        </tr>
-        </tr>
-            <td align="center">
-                <a href="http://cblp.su/">cblp.su</a>
-            </td>
-        </tr>
-    </table>
-    <p align="center" class="small">
-        <br/>
-        <a href="https://bitbucket.org/cblp/about-programming" rel="source">bitbucket.org/cblp/about-programming</a>
-        <br/>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="cc-by-nc-sa_88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">CC-BY-NC-SA</a>
+    <p align="center">
+        <small>программист</small>
     </p>
 
 |contacts|
@@ -245,14 +228,12 @@
 * «Умный дом»
 * ...
 
-#ifdef FULL
-
 Что дали миру программисты?
 ===========================
 
 .. |TeX| raw:: html
 
-    <span style="font-family: serif; font-size: 1em;">T<span style="text-transform: uppercase; vertical-align: -0.5ex; margin-left: -0.1667em; margin-right: -0.125em; font-size: 1em;">e</span>X</span>
+    <span style="font-family: serif;">T<span style="text-transform: uppercase; vertical-align: -0.5ex; margin-left: -0.1667em; margin-right: -0.125em;">e</span>X</span>
 
 .. class:: incremental
 
@@ -263,8 +244,6 @@
     .. container:: handout
 
         В Германии выложили законы на Гитхаб.
-
-#endif
 
 Программирование — исскусство
 =============================
